@@ -87,27 +87,27 @@ Once the backend server is running, you can access:
 
 ## Project Structure
 
-
+```bash
 smartextract-pro/
 ├── backend/               # Backend source code
-│   ├── app/              # Application code
-│   │   ├── api/          # API routes
-│   │   ├── core/         # Core functionality
-│   │   ├── crud/         # Database operations
-│   │   ├── db/           # Database configuration
-│   │   ├── models/       # Database models
-│   │   └── schemas/      # Pydantic models
-│   └── requirements.txt  # Python dependencies
+│   ├── app/               # Application code
+│   │   ├── api/           # API routes
+│   │   ├── core/          # Core functionality
+│   │   ├── crud/          # Database operations
+│   │   ├── db/            # Database configuration
+│   │   ├── models/        # Database models
+│   │   └── schemas/       # Pydantic models
+│   └── requirements.txt   # Python dependencies
 │
-├── frontend/             # Frontend React application
-│   ├── public/           # Static files
-│   └── src/              # Source code
-│       ├── components/   # Reusable components
-│       ├── pages/        # Page components
-│       ├── services/     # API services
-│       └── App.tsx       # Main application component
+├── frontend/              # Frontend React application
+│   ├── public/            # Static files
+│   └── src/               # Source code
+│       ├── components/    # Reusable components
+│       ├── pages/         # Page components
+│       ├── services/      # API services
+│       └── App.tsx        # Main application component
 │
-└── README.md            
+└── README.md              # This file
 
 
 ## Contributing

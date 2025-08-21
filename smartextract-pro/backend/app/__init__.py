@@ -1,0 +1,1 @@
+# SmartExtract Pro Backend Application

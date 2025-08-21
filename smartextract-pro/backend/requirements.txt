@@ -1,0 +1,24 @@
+fastapi==0.95.0
+uvicorn==0.21.1
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+sqlalchemy==2.0.9
+pydantic==1.10.7
+pytest==7.3.1
+httpx==0.23.3
+python-magic==0.4.27
+pytesseract==0.3.10
+opencv-python-headless==4.7.0.72
+python-multipart==0.0.6
+alembic==1.10.4
+pydantic[email]==1.10.7
+
+# Security packages
+colorama==0.4.6
+starlette-csrf==1.4.4
+psycopg2-binary==2.9.6  # For PostgreSQL support
+argon2-cffi==21.3.0  # For stronger password hashing
+pyopenssl==23.1.1  # For SSL/TLS support
+requests==2.29.0  # For security_check.py script

@@ -77,46 +77,33 @@ npm start
 # or
 
 yarn start
-API Documentation
+
+## API Documentation
+
 Once the backend server is running, you can access:
 
-Interactive API docs: http://localhost:8000/docs
-Alternative API docs: http://localhost:8000/redoc
+- **Interactive API docs**: [http://localhost:8000/docs](http://localhost:8000/docs)
+- **Alternative API docs**: [http://localhost:8000/redoc](http://localhost:8000/redoc)
+
+## Project Structure
 
 
-Project Structure
-smartextract-pro/
-├── backend/               # Backend source code
-│   ├── app/              # Application code
-│   │   ├── api/          # API routes
-│   │   ├── core/         # Core functionality
-│   │   ├── crud/         # Database operations
-│   │   ├── db/           # Database configuration
-│   │   ├── models/       # Database models
-│   │   └── schemas/      # Pydantic models
-│   └── requirements.txt  # Python dependencies
-│
-├── frontend/             # Frontend React application
-│   ├── public/           # Static files
-│   └── src/              # Source code
-│       ├── components/   # Reusable components
-│       ├── pages/        # Page components
-│       ├── services/     # API services
-│       └── App.tsx       # Main application component
-│
-└── README.md            
+
+smartextract-pro/ ├── backend/ # Backend source code │ ├── app/ # Application code │ │ ├── api/ # API routes │ │ ├── core/ # Core functionality │ │ ├── crud/ # Database operations │ │ ├── db/ # Database configuration │ │ ├── models/ # Database models │ │ └── schemas/ # Pydantic models │ └── requirements.txt # Python dependencies │ ├── frontend/ # Frontend React application │ ├── public/ # Static files │ └── src/ # Source code │ ├── components/ # Reusable components │ ├── pages/ # Page components │ ├── services/ # API services │ └── App.tsx # Main application component │ └── README.md # This file
 
 
-Contributing
-Fork the repository
-Create a feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Contributing
 
-Support
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
 For support, please open an issue in the GitHub repository or contact the development team.
-
-

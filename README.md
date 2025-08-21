@@ -69,15 +69,21 @@ bash
 cp .env.example .env.local
 # Edit .env.local with your API endpoint
 Start the development server:
+
+
 bash
 npm start
+
 # or
+
 yarn start
 API Documentation
 Once the backend server is running, you can access:
 
 Interactive API docs: http://localhost:8000/docs
 Alternative API docs: http://localhost:8000/redoc
+
+
 Project Structure
 smartextract-pro/
 ├── backend/               # Backend source code
@@ -98,7 +104,9 @@ smartextract-pro/
 │       ├── services/     # API services
 │       └── App.tsx       # Main application component
 │
-└── README.md            # This file
+└── README.md            
+
+
 Contributing
 Fork the repository
 Create a feature branch (git checkout -b feature/AmazingFeature)
